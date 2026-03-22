@@ -23,7 +23,7 @@ Key Objectives:
   Implemented Soft-start up techniques to prevent current spikes and excessive voltage stress during initialization.
   Integrated Integrator Initialization to eliminate overshoot during the transition from open-loop to closed-loop mode.
 
- 3. Feedforward Control
+  3. Feedforward Control
  Predicts the impact of disturbances (e.g., input voltage changes) and adjusts the control signal in advance
  Significantly improves reference tracking performance and response time.
 
