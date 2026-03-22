@@ -22,3 +22,19 @@ Key Objectives:
   Uses a PI Controller to minimize the error between the reference ($R(s)$) and the feedback output ($Y(s)$)
   Implemented Soft-start up techniques to prevent current spikes and excessive voltage stress during initialization.
   Integrated Integrator Initialization to eliminate overshoot during the transition from open-loop to closed-loop mode.
+
+ 3. Feedforward Control
+ Predicts the impact of disturbances (e.g., input voltage changes) and adjusts the control signal in advance
+ Significantly improves reference tracking performance and response time.
+
+
+* Performance Metrics & Analysis
+  The following indicators were used to evaluate the controller's performance:
+
+  -Rising Time ($t_r$): Time taken for the response to rise from 10% to 90% of the target.
+  -Settling Time ($t_s$): Time required for the response to stay within a specific error range (e.g., ±1%).
+  -Overshoot ($M_p$): The peak value exceeding the final steady-state value.
+
+* Comparative Results:
+-Load Variation: Under open-loop control, load changes caused significant ripples and oscillations. In contrast, closed-loop control maintained a stable response with minimal ripple.
+-Mode of Operation: Analysis was conducted for both Continuous Conduction Mode (CCM) and Discontinuous Conduction Mode (DCM) depending on the load conditions.
