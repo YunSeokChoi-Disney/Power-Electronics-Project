@@ -1,4 +1,4 @@
-**Buck Converter Controller Design & Analysis**
+**<Buck Converter Controller Design & Analysis>**
 
 This project focuses on the design and performance analysis of a Buck Converter Controller, exploring the differences between Open-loop and Closed-loop control systems. 
 It includes the implementation of PI controllers and Feedforward control strategies to optimize transient response and disturbance rejection.
